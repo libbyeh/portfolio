@@ -2,7 +2,7 @@
 
 
 .App {
-  background-image: url('../images/br5.jpg');
+  // background-image: url('../images/br4.jpg');
   background-size: cover;
   bottom: 0;
   left: 0;
@@ -12,3 +12,32 @@
   text-align: center;
   top: 0;
 }
+
+.header {
+  background-image: url('../images/wc.jpg');
+  background-size: cover;
+  height: 600px;
+}
+
+.intro-header {
+  margin: 0px 400px 10px;
+}
+
+.intro-details {
+  margin: 0px 400px;
+}
+
+.portfolio {
+  width: 100%;
+  margin: 200px 500px;
+}
+
+.portfolio-grid {
+  width: 100%;
+  margin: 200px auto;
+}
+
+
+
+
+
