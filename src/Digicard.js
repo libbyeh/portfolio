@@ -4,18 +4,17 @@ import './styles/main.scss';
 class Digicard extends Component {
   constructor(props) {
     super();
-    this.state = {
-    }
   }
-
-
 
   render () {
     if (!this.props.name) {
       return ( <div className='none'></div> );
     } else {
     return (
-        <div className='digiCard-body'>Hi</div>
+      <div className='popup'>
+        <div className='digiCard-body'>DIGI</div>
+        <button className='pop-btn' onClick={this.props.closeProject}>X</button>
+      </div>
     )
    }
  }

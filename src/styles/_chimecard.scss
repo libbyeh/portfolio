@@ -1,15 +1,279 @@
 @import 'variables';
 
 
-.popup {
-  background: pink;
-  border-radius: 15px;
-  margin-top: 5%;
-  overflow: hidden;
-  padding: 20px;
-  position: fixed;
-  right: calc(50vw - 595px);
-  top: 180px;
-  width: 1200px;
-  z-index: 3;
+.chime-image {
+  background-image: url('../images/main.png');
+  background-size: cover;
+  height: 400px;
+  margin: 35px 80px 0px;
+  position: relative;
+  width: 215px;
+  z-index: 2;
 }
+
+.btn {
+  text-align: right;
+}
+
+.intro-section {
+  display: grid;
+  grid-template-areas: "header img"
+                       "header img";
+  grid-template-rows: 60% 40%;
+  margin-bottom: 80px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.intro-pre-headline {
+  margin-left: 150px; 
+  margin-top: 50px;
+  margin-bottom: 0px;
+  color: #2a5c62;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.pre-headline {
+  color: #2a5c62;
+  padding-top: 50px;
+  margin-bottom: 0px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.main-headline {
+  margin-left: 149px;
+  margin-top: 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 0px;
+  color: #504d4f;
+}
+
+.subhead {
+  margin-left: 149px;
+  margin-bottom: 0px;
+  width: 500px;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: normal;
+  color: #504d4f;
+}
+
+.secondary-section {
+  background: #f0f1f1;
+  display: grid;
+  grid-template-areas: "role-section team-section tech-section"
+                       "role-section team-section tech-section";
+  grid-template-rows: 30% 30% 30%;
+  justify-content: space-around;
+}
+
+.role-name {
+  color: #2a5c62;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.tech-name {
+  color: #2a5c62;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.tech-tool {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.headline {
+  margin-top: 10px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.problem-section {
+  text-align: center;
+  width: 70%;
+  margin-left: 220px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.research-section {
+  background: #f0f1f1;
+  text-align: center;
+  padding-bottom: 50px; 
+}
+
+.user-images {
+  display: inline-block;
+}
+
+.user-image-1 {
+  background-image: url('../images/jeff.jpg');
+  background-size: cover;
+  display: inline-block;
+  height: 205px;
+  margin: 35px 80px 0px;
+  position: relative;
+  width: 205px;
+  z-index: 2;
+}
+
+.user-image-2 {
+  background-image: url('../images/jane.jpg');
+  background-size: cover;
+  display: inline-block;
+  height: 205px;
+  margin: 35px 80px 0px;
+  position: relative;
+  width: 205px;
+  z-index: 2;
+}
+
+.user-image-3 {
+  background-image: url('../images/ron.jpg');
+  background-size: cover;
+  display: inline-block;
+  height: 205px;
+  margin: 35px 80px 0px;
+  position: relative;
+  width: 215px;
+  z-index: 2;
+}
+
+.user-goal-section {
+  text-align: center;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.goal-image {
+  background-image: url('../images/goals.png');
+  background-size: cover;
+  height: 250px;
+  margin: 35px 0px 0px 310px;
+  position: relative;
+  width: 800px;
+  z-index: 2;
+}
+
+.competitor-section {
+  background: #f0f1f1;
+  text-align: center;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.comp-image {
+  background-image: url('../images/companalysis.png');
+  background-size: cover;
+  height: 390px;
+  margin: 35px 0px 0px 260px;
+  position: relative;
+  width: 900px;
+  z-index: 2;
+}
+
+.persona-section {
+  text-align: center;
+  width: 80%;
+  margin-left: 130px;
+}
+
+.persona-image-1 {
+  background-image: url('../images/persona.png');
+  background-size: cover;
+  height: 455px;
+  margin: 35px 0px 0px 180px;
+  position: relative;
+  width: 800px;
+  z-index: 2;
+}
+
+.mvp-section {
+  background: #f0f1f1;
+  text-align: center;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.mvp-image-1 {
+  background-image: url('../images/mvp.png');
+  background-size: cover;
+  height: 300px;
+  margin: 35px 0px 0px 260px;
+  position: relative;
+  width: 900px;
+  z-index: 2;
+}
+
+.user-flow-section {
+  margin-bottom: 40px;
+  text-align: center;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.flow-1-image {
+  background-image: url('../images/onboardingflow.jpg');
+  background-size: cover;
+  height: 200px;
+  margin: 35px 0px 0px 230px;
+  position: relative;
+  width: 1000px;
+  z-index: 2;
+}
+
+.flow-2-image {
+  background-image: url('../images/flowchart.jpg');
+  background-size: cover;
+  height: 200px;
+  margin: 35px 0px 0px 230px;
+  position: relative;
+  width: 1000px;
+  z-index: 2;
+}
+
+.wireframe-section {
+  background: #f0f1f1;
+  text-align: center;
+  padding-bottom: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.wireframe-image {
+  background-image: url('../images/wireframe.png');
+  background-size: cover;
+  height: 350px;
+  margin: 35px 0px 0px 310px;
+  position: relative;
+  width: 800px;
+  z-index: 2;
+}
+
+.prototype-section {
+  text-align: center;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.prototype-1-image {
+  background-image: url('../images/onboarding.png');
+  background-size: cover;
+  height: 350px;
+  margin: 35px 0px 0px 260px;
+  position: relative;
+  width: 900px;
+  z-index: 2;
+}
+
+.prototype-2-image {
+  background-image: url('../images/keyscreens.png');
+  background-size: cover;
+  height: 350px;
+  margin: 35px 0px 0px 260px;
+  position: relative;
+  width: 900px;
+  z-index: 2;
+}
+
+
+
+
