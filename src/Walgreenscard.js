@@ -13,6 +13,7 @@ class Walgreenscard extends Component {
     return (
       <div className='popup'>
         <div className='btn'>
+          <i class="fas fa-arrow-left"></i>
           <button className='btn' onClick={this.props.closeProject}>BACK TO HOME</button>
         </div>
         <div className='intro-section'>
