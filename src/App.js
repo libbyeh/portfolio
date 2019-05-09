@@ -76,6 +76,7 @@ class App extends Component {
           <p className='intro-about'>I enjoy building user-centric digital experiences. 
              You can find me at the intersection of UX research & design, UI development and marketing.  
           </p>
+          <button className='resume-btn' onClick={this.renderResume}>View Resume</button>
         </section>
         <p className='arrow'>&#x25BC;</p>
         <p className='case-study-name'>CASE STUDIES</p>

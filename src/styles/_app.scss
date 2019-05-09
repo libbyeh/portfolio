@@ -36,6 +36,21 @@
   color: #2a9eac;
 }
 
+.resume-btn {
+  text-align: right;
+  border: none;
+  background: none;
+  padding-left: 0px;
+  color: #504d4f;
+  border: none;
+  font-family: 'Source Code Pro', monospace;
+  font-size: .8em;
+}
+
+.resume-btn:hover {
+  color: #2a9eac;
+}
+
 .intro-header {
   font-size: 3.5em;
   font-family: 'Roboto Condensed', sans-serif;
@@ -152,7 +167,7 @@
 .footer {
   background: #f0f1f1;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: .8em;
+  font-size: .9em;
   opacity: .8;
   display: grid;
   grid-template-areas: "footer-me footer-contact";
