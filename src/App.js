@@ -69,14 +69,12 @@ class App extends Component {
     return (
       <div className="App">
         <header className='header'></header>
-        <div className='start'>
-          <button className='start' onClick={this.renderResume}>Resume</button>
-        </div>
         <section className='intro'>
           <div className='intro-image'></div>
           <h1 className='intro-header'>LIBBY YEH</h1>
           <h3 className='intro-details'>UX/UI DESIGNER & DEVELOPER  |  CONTENT STRATEGIST</h3>
-          <p className='intro-about'>Curious, empathic thinker & designer who is passionate about getting to the heart of what people's intrinsic needs and desires are.  
+          <p className='intro-about'>I enjoy building user-centric digital experiences. 
+             You can find me at the intersection of UX research & design, UI development and marketing.  
           </p>
         </section>
         <p className='arrow'>&#x25BC;</p>
@@ -85,7 +83,7 @@ class App extends Component {
           <div className='project-container'>
             <div className='project-details'>
               <h6 className='project-headline'>UX CASE STUDY</h6>
-              <h4 className='project-title-box'>Chime</h4>
+              <h4 className='project-title-box'>CHIME</h4>
               <h5 className='project-info'>Social gathering app for people living with severe chronic pain looking to connect and support individuals or groups with the same diagnosis.</h5> 
                 <button className='start' onClick={this.renderChime}>View Case Study</button>
             </div>
@@ -96,7 +94,7 @@ class App extends Component {
           <div className='project-container'>
             <div className='project-details'>
               <h6 className='project-headline'>CX CASE STUDY</h6>
-              <h4 className='project-title-box'>Western Union Brand Experience</h4>
+              <h4 className='project-title-box'>WESTERN UNION BRAND EXPERIENCE</h4>
               <h5 className='project-info'>Translation of consumer research and insights into a complete retail brand experience inclusive of signage, merchandising, and marketing content.</h5> 
                 <button className='start' onClick={this.renderDigi}>View Case Study</button>
             </div>
@@ -107,7 +105,7 @@ class App extends Component {
           <div className='project-container'>
           <div className='project-details'>
               <h6 className='project-headline'>UI CASE STUDY</h6>
-              <h4 className='project-title-box'>Walgreen's Landing Page</h4>
+              <h4 className='project-title-box'>WALGREENS LANDING PAGE</h4>
               <h5 className='project-info'>Landing Page for Western Union including wireframe development, hi-fidelity mockups, content strategy and video development.</h5> 
                 <button className='start' onClick={this.renderWalgreens}>View Case Study</button>
             </div>
@@ -118,7 +116,7 @@ class App extends Component {
           <div className='project-container'>
             <div className='project-details'>
               <h6 className='project-headline'>DEVELOPMENT CASE STUDY</h6>
-              <h4 className='project-title-box'>Snapshot</h4>
+              <h4 className='project-title-box'>SNAPSHOT</h4>
               <h5 className='project-info'>Professional-learning site fetching data from an API. Uses React to render individual pages each testing the user’s knowledge of advanced programming language & concepts.</h5> 
                 <button className='start' onClick={this.renderSnapshot}>View Case Study</button>
             </div>
@@ -126,6 +124,17 @@ class App extends Component {
               <div className='main-chime-image'></div>
             </div>
           </div>
+          <div className='footer'>
+            <div className='footer-me'>
+              <h5 className='footer-name'>LIBBY YEH</h5>
+              <h5 className='footer-role'>UX/UI DESIGNER & DEVELOPER</h5>
+              <h6 className='footer-copyright'>©2019 LibbyYeh All Rights Reserved.</h6>
+            </div>
+            <div className='footer-contact'>
+              <h5 className='footer-email'>Email: esnider1699@gmail.com</h5>
+              <button className='start' onClick={this.renderResume}>View Resume</button>
+            </div>
+          </div> 
         </section>
 
         <Chimecard name={this.state.chimeCard} closeProject={this.closeProject} />

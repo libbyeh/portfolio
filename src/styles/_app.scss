@@ -23,6 +23,17 @@
 
 .start {
   text-align: right;
+  border: none;
+  background: none;
+  padding-left: 0px;
+  color: #504d4f;
+  border: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: .8em;
+}
+
+.start:hover {
+  color: #2a9eac;
 }
 
 .intro-header {
@@ -37,9 +48,11 @@
 }
 
 .intro-about {
-  width: 40%;
+  width: 39%;
   margin-top: 30px;
   font-family: 'Source Code Pro', monospace;
+  font-size: 1em;
+  line-height: 1.5;
 }
 
 .arrow {
@@ -75,7 +88,7 @@
 
 .case-study-name {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1em;
+  font-size: .8em;
   color: #504d4f;
   text-align: left;
   margin: auto auto 10px 75px;
@@ -96,12 +109,15 @@
 .project-title-box {
   margin-top: 5px;
   font-family: 'Source Code Pro', monospace;
+  color: #504d4f;
+  font-size: 1em;
 }
 
 .project-info {
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: normal; 
-  width: 75%; 
+  font-weight: normal;
+  width: 85%;
+  line-height: 1.5; 
 }
 
 .project-img {
@@ -121,15 +137,56 @@
 }
 
 .project-image-4 {
-  background-image: url('../images/snapshot.png');
+  background-image: url('../images/snapshotmac.png');
   background-size: cover;
-  width: 165px;
+  height: 300px;
+  width: 365px;
 }
 
 .project-image-3 {
   background-image: url('../images/walgreens.png');
   background-size: cover;
   width: 165px;
+}
+
+.footer {
+  background: #f0f1f1;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: .8em;
+  opacity: .8;
+  display: grid;
+  grid-template-areas: "footer-me footer-contact";
+  grid-template-rows: 50% 50%;
+  justify-content: space-around;
+  color: #504d4f;
+  text-align: left;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.footer-me {
+  margin-left: 75px;
+}
+
+.footer-contact {
+  margin-right: 575px;
+}
+
+.footer-name {
+  margin-bottom: 0px;
+}
+
+.footer-role {
+  margin-top: 2px;
+}
+
+.footer-phone {
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.footer-email {
+  margin-bottom: 5px;
 }
 
 

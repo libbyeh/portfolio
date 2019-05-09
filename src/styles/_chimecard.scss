@@ -2,17 +2,28 @@
 
 
 .chime-image {
-  background-image: url('../images/main.png');
+  background-image: url('../images/chimeall.png');
   background-size: cover;
-  height: 400px;
-  margin: 35px 80px 0px;
+  height: 420px;
+  margin: 20px 80px 0px;
   position: relative;
-  width: 215px;
+  width: 430px;
   z-index: 2;
 }
 
 .btn {
   text-align: right;
+  margin-right: 90px;
+  margin-top: 25px;
+  border: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #504d4f;
+  font-size: .8em;
+}
+
+.btn:hover {
+  color: #2a9eac;
+  font-weight: bold;
 }
 
 .intro-section {
@@ -20,14 +31,14 @@
   grid-template-areas: "header img"
                        "header img";
   grid-template-rows: 60% 40%;
-  margin-bottom: 80px;
-  margin-top: 30px;
+  margin-bottom: 70px;
+  margin-top: 20px;
   text-align: left;
 }
 
 .intro-pre-headline {
   margin-left: 150px; 
-  margin-top: 50px;
+  margin-top: 5px;
   margin-bottom: 0px;
   color: #2a5c62;
   font-family: 'Source Code Pro', monospace;
@@ -82,22 +93,36 @@
 }
 
 .headline {
+  color: #504d4f;
   margin-top: 10px;
   font-family: 'Source Code Pro', monospace;
+  font-size: 1.2em;
 }
+
 
 .problem-section {
   text-align: center;
   width: 70%;
   margin-left: 220px;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  line-height: 1.5; 
+}
+
+.problem-head {
+  font-family: 'Source Code Pro', monospace;
+  margin-top: 50px;
 }
 
 .research-section {
   background: #f0f1f1;
   text-align: center;
   padding-bottom: 50px; 
+}
+
+.research-details {
+  width: 70%;
+  margin-left: 220px;
 }
 
 .user-images {
@@ -153,6 +178,31 @@
   z-index: 2;
 }
 
+.findings {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: .9em;
+  width: 40%;
+  margin-left: 450px;
+  text-align: left;
+}
+
+.research-key-findings {
+  color: #2a5c62;
+  margin-left: 225px;
+  font-size: 1em;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.competitor-key-findings {
+  color: #2a5c62;
+  margin-left: 145px;
+  font-size: 1em;
+  font-family: 'Source Code Pro', monospace;
+  width: 70%;
+}
+
 .competitor-section {
   background: #f0f1f1;
   text-align: center;
@@ -174,6 +224,11 @@
   text-align: center;
   width: 80%;
   margin-left: 130px;
+}
+
+.persona-details {
+  width: 75%;
+  margin-left: 150px;
 }
 
 .persona-image-1 {
@@ -210,6 +265,12 @@
   width: 100%;
 }
 
+.flow-headline {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.2em;
+  color: #504d4f;
+}
+
 .flow-1-image {
   background-image: url('../images/onboardingflow.jpg');
   background-size: cover;
@@ -230,6 +291,11 @@
   z-index: 2;
 }
 
+.flow-details {
+  width: 70%;
+  margin-left: 220px;
+}
+
 .wireframe-section {
   background: #f0f1f1;
   text-align: center;
@@ -246,6 +312,11 @@
   position: relative;
   width: 800px;
   z-index: 2;
+}
+
+.wireframe-details {
+  width: 70%;
+  margin-left: 220px;
 }
 
 .prototype-section {
@@ -273,6 +344,27 @@
   width: 900px;
   z-index: 2;
 }
+
+.details {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: .9em; 
+}
+
+.featured-details {
+  margin-top: 50px;
+}
+
+.prototype-img {
+  margin-top: 0px;
+}
+
+.prototype-details {
+  margin-top: 50px;
+}
+
+
 
 
 
