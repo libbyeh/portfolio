@@ -22,10 +22,10 @@ class Snapshotcard extends Component {
             <h1 className='main-headline'>SNAPSHOT</h1>
             <h3 className='subhead'>An application that solves a common 
             problem that most students face - finding effective study techniques 
-            to optimize learning retention and recall</h3>
+            to optimize learning retention and recall.</h3>
           </div>
           <div className='img'>
-            <div className='chime-image'></div>
+            <div className='snap-image'></div>
           </div>
         </div>
         <div className='secondary-section'>
@@ -66,40 +66,41 @@ class Snapshotcard extends Component {
         </div>
         <div className='user-flow-section'>
           <h6 className='pre-headline'>USER FLOW MAPS</h6>
-          <h3 className='headline'>Onboarder</h3>
-            <p className='details flow-details'>The onboarding experience is a result of additional user testing. It was identified that users did not
+          <h3 className='headline'>Simplified User Journey </h3>
+            <p className='details snapflow-details'>The onboarding experience is a result of additional user testing. It was identified that users did not
             understand how to get started and what "positivity pings" were. While they are the surprise & delight experience in the app, initial presentation
             and explanation is beneficial</p>
-            <div className='flow-1-image'></div>
-          <h3 className='flow-headline'>Active User</h3>
-            <p className='details flow-details'>An active user has several paths they can take. The happy path to find new indiviual supporters or groups is very 
-            simple without too many steps. Both paths then lead to access to the 'positivity ping" page.</p>
-            <div className='flow-2-image'></div>
+            <div className='snapflow-1-image'></div>
         </div>
         <div className='wireframe-section'>
           <h6 className='pre-headline'>WIREFRAMING</h6>
           <h2 className='headline'>Content & Functionality Layout</h2>
-          <p className='details wireframe-details'>I created simple wireframes to coordinate the content heirarchy and general layout.
-          These wireframes helped outline what should be on each page and used for user testing. Built in Sketch, the initial user flow called for 25 screens, 
-          which eventually grew to 47 total screens inclusive of onboarding and pop-up screens to efficiently guide the user through the app. </p>
-            <div className='wireframe-image'></div>
+          <p className='details wireframe-details'>Digital wireframes were leveraged for usability testing so that user behavior 
+          could be monitored and feedback recorded.</p>
+          <div className='snap-wireframe-images'>  
+            <div className='snap-wireframe-image-1'></div>
+            <div className='snap-wireframe-image-2'></div>
+          </div>
         </div>
         <div className='prototype-section'>
-          <h6 className='pre-headline'>HI-FI PROTOTYPES</h6>
-          <h3 className='headline'>Onboarding Prototypes</h3>
-            <div className='prototype-img prototype-1-image'></div>
-          <h3 className='headline featured-details'>Featured Prototypes</h3>
-            <div className='prototype-img prototype-2-image'></div>
+          <h6 className='pre-headline'>UI DESIGN</h6>
+          <h3 className='headline'>Main Interfaces</h3>
+          <p className='details snapUI-details'>Webster's Dictionary defines snapshot as an appraisel, summary or profile. Flashcards also offer a brief appraisal of users' 
+          knowledge of a particular subject. Snap-shot provides users a chance to test 
+          their knowledge of array prototype methods while immersed in an elegant and easy-to-navigate UI. Users can also save individual 
+          cards to practice later. Additionally, Snap-shot is built to scale to add more concepts in the future.</p>
+            <div className='prototype-img snap-prototype-1-image'></div>
+            <div className='prototype-img snap-prototype-2-image'></div>
+            <div className='prototype-img snap-prototype-3-image'></div>
         </div>
         <div className='footer'>
             <div className='footer-me'>
-              <h5 className='footer-name'>LIBBY YEH</h5>
-              <h5 className='footer-role'>UX/UI DESIGNER & DEVELOPER</h5>
               <h6 className='footer-copyright'>©2019 LibbyYeh All Rights Reserved.</h6>
             </div>
             <div className='footer-contact'>
+              <h5 className='footer-name'>LIBBY YEH</h5>
+              <h5 className='footer-role'>UX/UI DESIGNER & DEVELOPER</h5>
               <h5 className='footer-email'>Email: esnider1699@gmail.com</h5>
-              <button className='start' onClick={this.renderResume}>View Resume</button>
             </div>
           </div> 
       </div>

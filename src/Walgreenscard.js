@@ -6,6 +6,19 @@ class Walgreenscard extends Component {
     super();
   }
 
+          // <div className='project-container'>
+          // <div className='project-details'>
+          //     <h6 className='project-headline'>UI CASE STUDY</h6>
+          //     <h4 className='project-title-box'>WALGREENS LANDING PAGE</h4>
+          //     <h5 className='project-info'>Landing Page for Western Union including wireframe development, hi-fidelity mockups, content strategy and video development.</h5> 
+          //       <button className='start' onClick={this.renderWalgreens}>View Case Study</button>
+          //       <i class="fas fa-arrow-right"></i>
+          //   </div>
+          //   <div className='project-img project-image-3'>
+          //     <div className='main-chime-image'></div>
+          //   </div>
+          // </div>
+
   render () {
     if (!this.props.name) {
       return ( <div className='none'></div> );

@@ -46,7 +46,7 @@ class Chimecard extends Component {
           </div>
         </div>
         <div className='problem-section'>
-          <h2 className='headline obj-head'>The Objective</h2>
+          <h2 className='headline obj-head'>Overview</h2>
           <p className='details objective-details'>My dad was diagnosed with Chronic Regional Pain Syndrome 5 years ago. 
           Also know as CRPS, it is defined by the constant and severely painful burning in one's limbs, in my dad's case, 
           in his legs & feet. After researching pain relief methods for CRPS, I found that whole body vibrations can significantly help with chronic 
@@ -148,13 +148,12 @@ class Chimecard extends Component {
         </div>
         <div className='footer'>
             <div className='footer-me'>
-              <h5 className='footer-name'>LIBBY YEH</h5>
-              <h5 className='footer-role'>UX/UI DESIGNER & DEVELOPER</h5>
               <h6 className='footer-copyright'>©2019 LibbyYeh All Rights Reserved.</h6>
             </div>
             <div className='footer-contact'>
+              <h5 className='footer-name'>LIBBY YEH</h5>
+              <h5 className='footer-role'>UX/UI DESIGNER & DEVELOPER</h5>
               <h5 className='footer-email'>Email: esnider1699@gmail.com</h5>
-              <button className='start' onClick={this.renderResume}>View Resume</button>
             </div>
           </div> 
       </div>

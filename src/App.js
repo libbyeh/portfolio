@@ -97,7 +97,7 @@ class App extends Component {
             <div className='project-details'>
               <h6 className='project-headline'>CX CASE STUDY</h6>
               <h4 className='project-title-box'>WESTERN UNION BRAND EXPERIENCE</h4>
-              <h5 className='project-info'>Translation of consumer research and insights into a complete retail brand experience inclusive of digital signage, merchandising, and marketing content.</h5> 
+              <h5 className='project-info'>Translation of consumer research and insights into a complete retail brand experience inclusive of digitalsignage, merchandising, and marketing content.</h5> 
                 <button className='start' onClick={this.renderDigi}>View Case Study</button>
                 <i class="fas fa-arrow-right"></i>
             </div>
@@ -105,19 +105,7 @@ class App extends Component {
               <div className='main-chime-image'></div>
             </div>
           </div>
-          <div className='project-container'>
-          <div className='project-details'>
-              <h6 className='project-headline'>UI CASE STUDY</h6>
-              <h4 className='project-title-box'>WALGREENS LANDING PAGE</h4>
-              <h5 className='project-info'>Landing Page for Western Union including wireframe development, hi-fidelity mockups, content strategy and video development.</h5> 
-                <button className='start' onClick={this.renderWalgreens}>View Case Study</button>
-                <i class="fas fa-arrow-right"></i>
-            </div>
-            <div className='project-img project-image-3'>
-              <div className='main-chime-image'></div>
-            </div>
-          </div>
-          <div className='project-container'>
+          <div className='project-container last-container'>
             <div className='project-details'>
               <h6 className='project-headline'>DEVELOPMENT CASE STUDY</h6>
               <h4 className='project-title-box'>SNAPSHOT</h4>
@@ -131,13 +119,12 @@ class App extends Component {
           </div>
           <div className='footer'>
             <div className='footer-me'>
-              <h5 className='footer-name'>LIBBY YEH</h5>
-              <h5 className='footer-role'>UX/UI DESIGNER & DEVELOPER</h5>
               <h6 className='footer-copyright'>©2019 LibbyYeh All Rights Reserved.</h6>
             </div>
             <div className='footer-contact'>
+              <h5 className='footer-name'>LIBBY YEH</h5>
+              <h5 className='footer-role'>UX/UI DESIGNER & DEVELOPER</h5>
               <h5 className='footer-email'>Email: esnider1699@gmail.com</h5>
-              <button className='start' onClick={this.renderResume}>View Resume</button>
             </div>
           </div> 
         </section>

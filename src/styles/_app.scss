@@ -107,6 +107,10 @@
   grid-template-rows: 60% 40%;
 }
 
+.last-container {
+  margin-bottom: 50px;
+}
+
 .case-study-name {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: .8em;
@@ -182,17 +186,18 @@
   grid-template-rows: 50% 50%;
   justify-content: space-around;
   color: #504d4f;
-  text-align: left;
-  justify-content: space-between;
+  text-align: center;
   padding-top: 20px;
 }
 
 .footer-me {
-  margin-left: 110px;
+  margin-top: 50px;
+  margin-right: 50px;
 }
 
 .footer-contact {
-  margin-right: 575px;
+  margin-right: 500px;
+  margin-bottom: 20px;
 }
 
 .footer-name {
@@ -203,13 +208,8 @@
   margin-top: 2px;
 }
 
-.footer-phone {
-  margin-top: 2px;
-  margin-bottom: 10px;
-}
-
 .footer-email {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 
