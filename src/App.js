@@ -80,7 +80,6 @@ class App extends Component {
           <i class="fas fa-arrow-right"></i>
         </section>
         <p className='arrow'>&#x25BC;</p>
-        <p className='case-study-name'>CASE STUDIES</p>
         <section className='project-grid'>
           <div className='project-container'>
             <div className='project-details'>
@@ -98,7 +97,7 @@ class App extends Component {
             <div className='project-details'>
               <h6 className='project-headline'>CX CASE STUDY</h6>
               <h4 className='project-title-box'>WESTERN UNION BRAND EXPERIENCE</h4>
-              <h5 className='project-info'>Translation of consumer research and insights into a complete retail brand experience inclusive of signage, merchandising, and marketing content.</h5> 
+              <h5 className='project-info'>Translation of consumer research and insights into a complete retail brand experience inclusive of digital signage, merchandising, and marketing content.</h5> 
                 <button className='start' onClick={this.renderDigi}>View Case Study</button>
                 <i class="fas fa-arrow-right"></i>
             </div>

@@ -145,7 +145,6 @@ class Chimecard extends Component {
             <div className='prototype-img prototype-1-image'></div>
           <h3 className='headline featured-details'>Featured Prototypes</h3>
             <div className='prototype-img prototype-2-image'></div>
-          <p className='details prototype-details'>Head to InVision to see Chime in action: https://invis.io/KVRMJACGYJF</p>
         </div>
         <div className='footer'>
             <div className='footer-me'>

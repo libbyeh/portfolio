@@ -20,7 +20,8 @@ class Digicard extends Component {
           <div classname='header'>
             <h6 className='intro-pre-headline'>CX CASE STUDY</h6>
             <h1 className='main-headline'>WESTERN UNION BRAND EXPERIENCE</h1>
-            <h3 className='subhead'>Lorum Ipsum</h3>
+            <h3 className='subhead'>Creating an ownable, positive and consistent Western Union 
+            Brand Experience at retail.</h3>
           </div>
           <div className='img'>
             <div className='chime-image'></div>
@@ -29,30 +30,24 @@ class Digicard extends Component {
         <div className='secondary-section'>
           <div className='role-section'>
             <h4 className='role-name'>Role</h4>
-            <h5 className='role-description'>UX/UI Designer</h5>
+            <h5 className='role-description'>Research</h5>
+            <h5 className='role-description'>Content Strategy</h5>
+            <h5 className='role-description'>Deployment Design & Planning</h5>
           </div>
           <div className='tech-section'>
             <h4 className='tech-name'>Technology</h4>
-              <h5 className='tech-tool'>Sketch</h5>
-              <h5 className='tech-tool'>Invision</h5>
-              <h5 className='tech-tool'>Miro</h5>
-              <h5 className='tech-tool'>Optimal Workshop</h5>
+              <h5 className='tech-tool'>Salesforce.com</h5>
           </div>
           <div className='team-section'>
             <h4 className='role-name'>Team</h4>
-            <h5 className='role-description'>Individual Project</h5>
+            <h5 className='role-description'>Cross-Functional Team Initiative</h5>
           </div>
         </div>
         <div className='problem-section'>
           <h2 className='headline obj-head'>The Objective</h2>
-          <p className='details objective-details'>My dad was diagnosed with Chronic Regional Pain Syndrome 5 years ago. 
-          Also know as CRPS, it is defined by the constant and severely painful burning in one's limbs, in my dad's case, 
-          in his legs & feet. After researching pain relief methods for CRPS, I found that whole body vibrations can significantly help with chronic 
-          pain, but that means one would be bed/chair-ridden depending on your level of pain. I wanted to 
-          better understand if people that live with severe chronic pain could benefit from new advances in mobile -technology 
-          to relieve pain and still lead active lifestyles. However after user interviews were complete, I found people 
-          were not looking for more treatment options but rather, connection and understanding. </p>
-          <h2 className='headline problem-head'>The New Problem</h2>
+          <p className='details objective-details'>Improve the brand and consumer experience at 
+          retail through a complete overhaul of the retail experience.</p>
+          <h2 className='headline problem-head'>Key Performance Indicators</h2>
           <p className='details problem-details'>People that live with severe chronic pain need a way to connect with 
           people who can relate to them and their pain-adapted lifestyles. It is hard to find support groups 
           specific to their chronic pain type and they would benefit from meeting people who can provide 
@@ -143,7 +138,6 @@ class Digicard extends Component {
             <div className='prototype-img prototype-1-image'></div>
           <h3 className='headline featured-details'>Featured Prototypes</h3>
             <div className='prototype-img prototype-2-image'></div>
-          <p className='details prototype-details'>Head to InVision to see Chime in action: https://invis.io/KVRMJACGYJF</p>
         </div>
         <div className='footer'>
             <div className='footer-me'>
