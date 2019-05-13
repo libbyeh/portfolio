@@ -24,7 +24,7 @@ class Digicard extends Component {
             Brand Experience at retail.</h3>
           </div>
           <div className='img'>
-            <div className='chime-image'></div>
+            <div className='wu-image'></div>
           </div>
         </div>
         <div className='secondary-section'>
@@ -47,107 +47,85 @@ class Digicard extends Component {
           <h2 className='headline obj-head'>The Objective</h2>
           <p className='details objective-details'>Improve the brand and consumer experience at 
           retail through a complete overhaul of the retail experience.</p>
-          <h2 className='headline problem-head'>Key Performance Indicators</h2>
-          <p className='details problem-details'>People that live with severe chronic pain need a way to connect with 
-          people who can relate to them and their pain-adapted lifestyles. It is hard to find support groups 
-          specific to their chronic pain type and they would benefit from meeting people who can provide 
-          additional support</p>
+          <div className='indicators'>
+          <h2 className='indicators key-indicators'>Key Performance Indicators:</h2>
+              <p>1. Drive incremental revenue and same-store sales.</p>
+              <p>2. Imporve Net Promoter Scores.</p>
+              <p>3. Increase the cross-sell & up-sell of Western Union products & services.</p>
+          </div>    
         </div>
         <div className='research-section'>
           <div className='research-head'>
-            <h6 className='pre-headline'>USER RESEARCH</h6>
-            <h2 className='headline'>Understanding Users Needs & Motivations</h2>
-            <p className='details research-details'>True empathy was key to deeply understanding the problems and 
-            realities of those I interviewed. They face extreme difficulties on a day-to-day basis. 
-            By keenly listening and appreciating those hardships, I was able to better understand what they 
-            really needed beyond their physical needs.</p>
+            <h6 className='pre-headline'>USER RESEARCH RESULTS</h6>
+            <h2 className='headline'></h2>
+            <p className='details research-details'>The result of consumer intercept & ethnographic research, customer 
+            experience mapping, path-to-purchase analysis and consumer persona development was a holistic retail design 
+            encompassing exterior & interior signage, wayfinding and fixtures that reinforced customers' perception
+            of Western Union as a modern yet reliable brand.</p>
           </div>
           <div className='user-images'>
-            <div className='user-image-1'></div>
-            <div className='user-image-2'></div>
-            <div className='user-image-3'></div>
-            <div className='user-image-4'></div>
+            <div className='process-image-1'></div>
           </div>
           <div className='findings'>
-            <h2 className='findings research-key-findings'>Key Findings:</h2>
-              <p>1. Users generally stick to daily routines and daily management of their pain.</p>
-              <p>2. Users said staying positive is key to living with chronic pain.</p>
-              <p>3. Users have trouble finding support groups or others dealing with the same pain or new friends in general.</p>
-              <p>4. Users often choose not to share their pain experiences with loved ones and friends to not burden or worry them. </p>
-              <p>5. Users need to stay active, including walking and exercise routines. They often do this alone but are open to doing with a friend.</p>
+            <h2 className='findings accomplishments'>Key Accomplishments:</h2>
+              <p>1. High-impact signage & merchandising that builds awareness & engagement.</p>
+              <p>2. Relevant messaging at each customer touch point that creates additional engagement.</p>
+              <p>3. Simple, easy, repeatable transaction process.</p>
+              <p>4. Solutions appropriate across all retail footprints and retail zones. </p>
+              <p>5. Solutions that cover investment flexibilityto allow for differentiation.</p>
           </div>
         </div>
         <div className='user-goal-section'>
-          <h6 className='pre-headline'>USER GOALS</h6>
-          <h2 className='headline'>The Goals</h2>
-          <div className='goal-image'></div>
+          <h6 className='pre-headline'></h6>
+          <h2 className='headline'>The Evolution</h2>
+          <p className='details evolution-details'>After a successful, nationwide launch of the the new 
+          Western Union Brand Experience, we initiated a pilot test for innovative digital signage, supporting new 
+          fixtures & content strategy. Digital signage allowed us to remotely manage marketing content.</p> 
         </div>
         <div className='competitor-section'>
-          <h6 className='pre-headline'>COMPETITIVE ANALYSIS</h6>
-          <h2 className='headline'>Competitor Feature Comparison</h2>
-          <p className='details competitor-details'>Based on my user's goals, I collected insights on the competition to identify market gaps and usability issues 
-          that Chime could solve for.</p>
+          <h6 className='pre-headline'>PROCESS</h6>
+          <h2 className='headline'>Salesforce.com Solution</h2>
+          <p className='details sfdc-details'>The Salesforce.com platform allows us to assign projects to internal users who then assign
+          customized marketing content kits to specific retail locations. The automated delivery will update assigned kiosks in real-time and can be customized
+          down to a single retail location.</p>
           <div className='comp-image'></div>
-          <div className='findings'>
-            <h3 className='findings competitor-key-findings'>Chime has the opportunity to...</h3>
-              <p>1. provide support groups that are more defined to specific pain diagnosis and allow for more intimate connections based on group sizing.</p>
-              <p>2. allow the user to define its search for individual supporters that are near them.</p>
-              <p>3. provide users with a library of positive affirmations, images & gifs specific to defined pain types to save or send to individuals 
-              or group conversations. </p>
-          </div>
         </div>
         <div className='persona-section'>
-          <h6 className='pre-headline'>PERSONA</h6>
-          <h2 className='headline'>A User Story</h2>
-          <p className='details persona-details'>Meet Jake. He embodies the issues and behaviors of those that were interviewed.
-          Rooted in key findings, Jake's characteristics and goals help further define and make decisions for my larger target audience.</p>
+          <h6 className='pre-headline'>ADDITIONAL RESEARCH</h6>
+          <h2 className='headline'>Customer Intercepts</h2>
+          <p className='details intercept-details'>Customer intercept research was conducted to determine if the new digital
+          signage and messaging improved the customer experience. We gathered 283 customer intercepts over the course of 5 days.
+          Overall, the digital signage had a positive impact on customers' experience and perception of the Western Union brand.</p>
           <div className='persona-images'>
-            <div className='persona-image-1'></div>
+            <div className='digi-image-1'></div>
           </div>
-        </div>
-        <div className='mvp-section'>
-          <h6 className='pre-headline'>MVP</h6>
-          <h2 className='headline'>Minimum Viable Product Features</h2>
-          <div className='mvp-images'>
-            <div className='mvp-image-1'></div>
-          </div>
-        </div>
-        <div className='user-flow-section'>
-          <h6 className='pre-headline'>USER FLOW MAPS</h6>
-          <h3 className='headline'>Onboarder</h3>
-            <p className='details flow-details'>The onboarding experience is a result of additional user testing. It was identified that users did not
-            understand how to get started and what "positivity pings" were. While they are the surprise & delight experience in the app, initial presentation
-            and explanation is beneficial</p>
-            <div className='flow-1-image'></div>
-          <h3 className='flow-headline'>Active User</h3>
-            <p className='details flow-details'>An active user has several paths they can take. The happy path to find new indiviual supporters or groups is very 
-            simple without too many steps. Both paths then lead to access to the 'positivity ping" page.</p>
-            <div className='flow-2-image'></div>
         </div>
         <div className='wireframe-section'>
-          <h6 className='pre-headline'>WIREFRAMING</h6>
-          <h2 className='headline'>Content & Functionality Layout</h2>
-          <p className='details wireframe-details'>I created simple wireframes to coordinate the content heirarchy and general layout.
-          These wireframes helped outline what should be on each page and used for user testing. Built in Sketch, the initial user flow called for 25 screens, 
-          which eventually grew to 47 total screens inclusive of onboarding and pop-up screens to efficiently guide the user through the app. </p>
-            <div className='wireframe-image'></div>
+          <h6 className='pre-headline'>IN-STORE</h6>
+          <h2 className='headline'>Placement is Key to Success</h2>
+          <p className='details instore-details'>The success of the digital signage is still largely dependant on
+          placement in the store location. In general, when placed by the customer service counter, we saw a large increase in
+          visibility of content and therefore usage. Many called for additional interaction on the digital screens which was 
+          subsequently added to the Digital Signage roadmap for future iteration.</p>
+            <div className='instore-image'></div>
         </div>
         <div className='prototype-section'>
-          <h6 className='pre-headline'>HI-FI PROTOTYPES</h6>
-          <h3 className='headline'>Onboarding Prototypes</h3>
-            <div className='prototype-img prototype-1-image'></div>
-          <h3 className='headline featured-details'>Featured Prototypes</h3>
-            <div className='prototype-img prototype-2-image'></div>
+          <h6 className='pre-headline'>FINAL DESIGN </h6>
+          <h3 className='headline'>Mobile Collaboration</h3>
+          <p className='details stagepay-details'>The final product that rolled out was a collaborative effort with the mobile team. 
+          Stage & Pay refers to the customer setting up their transaction on the western Union App and then completing the cash transaction
+          at a retail location. Our digital signage was key in providing informational and promotional marketing to in-store customers regarding the
+          new service. The Salesforce.com delivery system allowed us to efficiently release content in-line with the mobile service release dates.</p>
+            <div className='prototype-img stage-image'></div>
         </div>
         <div className='footer'>
             <div className='footer-me'>
-              <h5 className='footer-name'>LIBBY YEH</h5>
-              <h5 className='footer-role'>UX/UI DESIGNER & DEVELOPER</h5>
               <h6 className='footer-copyright'>©2019 LibbyYeh All Rights Reserved.</h6>
             </div>
             <div className='footer-contact'>
+              <h5 className='footer-name'>LIBBY YEH</h5>
+              <h5 className='footer-role'>UX/UI DESIGNER & DEVELOPER</h5>
               <h5 className='footer-email'>Email: esnider1699@gmail.com</h5>
-              <button className='start' onClick={this.renderResume}>View Resume</button>
             </div>
           </div> 
       </div>

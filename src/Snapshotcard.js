@@ -54,10 +54,11 @@ class Snapshotcard extends Component {
         </div>
         <div className='research-section'>
           <div className='research-head'>
-            <h6 className='pre-headline'>MVP COMPONENTS</h6>
+          <h6 className='pre-headline'>MVP</h6>
+          <h3 className='headline'>Minimum Components</h3>
           </div>
-          <div className='findings'>
-            <h2 className='findings research-key-findings'></h2>
+          <div className='snap-findings'>
+            <h2 className='snap-findings research-key-findings'></h2>
               <p>1. A dataset with 30 records with the ability to save data to local storage.</p>
               <p>2. Easy to navigate, multi-page interactions that is fully responsive.</p>
               <p>3. Functionality that is broken out into logical components with respective DRY CSS/Sass stylesheets.</p>
@@ -86,9 +87,8 @@ class Snapshotcard extends Component {
           <h6 className='pre-headline'>UI DESIGN</h6>
           <h3 className='headline'>Main Interfaces</h3>
           <p className='details snapUI-details'>Webster's Dictionary defines snapshot as an appraisel, summary or profile. Flashcards also offer a brief appraisal of users' 
-          knowledge of a particular subject. Snap-shot provides users a chance to test 
-          their knowledge of array prototype methods while immersed in an elegant and easy-to-navigate UI. Users can also save individual 
-          cards to practice later. Additionally, Snap-shot is built to scale to add more concepts in the future.</p>
+          knowledge of a particular subject. Thus, the UI of snapshot is born leveraging polaroid imagery! Users are immersed in an elegant and easy-to-navigate UI while they practice programming concepts. 
+          Users can also save individual cards to practice later. Additionally, Snap-shot is built to scale to add more concepts in the future.</p>
             <div className='prototype-img snap-prototype-1-image'></div>
             <div className='prototype-img snap-prototype-2-image'></div>
             <div className='prototype-img snap-prototype-3-image'></div>
