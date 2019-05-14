@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './styles/main.scss';
+import $ from 'jquery';
 
 class Chimecard extends Component {
   constructor(props) {
@@ -8,6 +9,7 @@ class Chimecard extends Component {
 
 
   render () {
+    window.scroll(0, 0);
     if (!this.props.name) {
       return ( <div className='none'></div> );
     } else {
@@ -18,7 +20,7 @@ class Chimecard extends Component {
           <button className='btn' onClick={this.props.closeProject}>BACK TO HOME</button>
         </div>
         <div className='intro-section'>
-          <div classname='header'>
+          <div className='header'>
             <h6 className='intro-pre-headline'>UX CASE STUDY</h6>
             <h1 className='main-headline'>CHIME</h1>
             <h3 className='subhead'>A chronically harmonious community for people living with severe 

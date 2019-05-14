@@ -6,11 +6,12 @@
   background-size: cover;
   bottom: 0;
   left: 0;
-  overflow: auto;
+  // overflow: auto;
   position: absolute;
   right: 0;
   text-align: center;
   top: 0;
+  height: auto;
 }
 
 .intro {
@@ -95,8 +96,10 @@
   z-index: 3;
 }
 
+
 .project-container {
   background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
   height: 400px;
   margin: auto auto 20px auto;
