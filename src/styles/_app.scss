@@ -1,12 +1,15 @@
 @import 'variables';
 
 
+* {
+  box-sizing: border-box;
+}
+
 .App {
   background-image: url('../images/splashcomp.jpeg');
   background-size: cover;
   bottom: 0;
   left: 0;
-  // overflow: auto;
   position: absolute;
   right: 0;
   text-align: center;
@@ -79,23 +82,25 @@
 
 .arrow {
   font-size: 37px;
-  color: #504d4f;
-  margin: 0px 0px 70px 0px;
+  color: #ffffff;
+  margin: 0px 0px 70px 0px;  
 }
 
 .project-grid {
   width: 100%;
   margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .popup {
   background: white;
   position: absolute;
   top: 0px;
-  width: 100%;
   z-index: 3;
+  display: grid;
+  grid-template-columns: 1fr;
 }
-
 
 .project-container {
   background: white;
@@ -161,9 +166,9 @@
 }
 
 .project-image-2 {
-  background-image: url('../images/wube.png');
+  background-image: url('../images/wubemobile.png');
   background-size: cover;
-  width: 465px;
+  width: 152px;
 }
 
 .project-image-4 {

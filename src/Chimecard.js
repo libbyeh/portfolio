@@ -78,7 +78,7 @@ class Chimecard extends Component {
             <div className='user-image-4'></div>
           </div>
           <div className='findings'>
-            <h2 className='findings research-key-findings'>Key Findings:</h2>
+            <h2 className='research-key-findings'>Key Findings:</h2>
               <p>1. Users generally stick to daily routines and daily management of their pain.</p>
               <p>2. Users said staying positive is key to living with chronic pain.</p>
               <p>3. Users have trouble finding support groups or others dealing with the same pain or new friends in general.</p>
@@ -98,7 +98,7 @@ class Chimecard extends Component {
           that Chime could solve for.</p>
           <div className='comp-image'></div>
           <div className='findings'>
-            <h3 className='findings competitor-key-findings'>Chime has the opportunity to...</h3>
+            <h3 className='competitor-key-findings'>Chime has the opportunity to...</h3>
               <p>1. provide support groups that are more defined to specific pain diagnosis and allow for more intimate connections based on group sizing.</p>
               <p>2. allow the user to define its search for individual supporters that are near them.</p>
               <p>3. provide users with a library of positive affirmations, images & gifs specific to defined pain types to save or send to individuals 

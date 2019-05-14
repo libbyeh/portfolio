@@ -85,8 +85,8 @@ class Digicard extends Component {
         <div className='competitor-section'>
           <h6 className='pre-headline'>PROCESS</h6>
           <h2 className='headline'>Salesforce.com Solution</h2>
-          <p className='details sfdc-details'>The Salesforce.com platform allows us to assign projects to internal users who then assign
-          customized marketing content kits to specific retail locations. The automated delivery will update assigned kiosks in real-time and can be customized
+          <p className='details sfdc-details'>The Salesforce.com platform allowed us to assign projects to internal users who then assign
+          customized marketing content kits to specific retail locations. The automated delivery updated assigned kiosks in real-time and can be customized
           down to a single retail location.</p>
           <div className='comp-image'></div>
         </div>
@@ -103,7 +103,7 @@ class Digicard extends Component {
         <div className='wireframe-section'>
           <h6 className='pre-headline'>IN-STORE</h6>
           <h2 className='headline'>Placement is Key to Success</h2>
-          <p className='details instore-details'>The success of the digital signage is still largely dependant on
+          <p className='details instore-details'>The success of the digital signage was still largely dependant on
           placement in the store location. In general, when placed by the customer service counter, we saw a large increase in
           visibility of content and therefore usage. Many called for additional interaction on the digital screens which was 
           subsequently added to the Digital Signage roadmap for future iteration.</p>
@@ -113,7 +113,7 @@ class Digicard extends Component {
           <h6 className='pre-headline'>FINAL DESIGN </h6>
           <h3 className='headline'>Mobile Collaboration</h3>
           <p className='details stagepay-details'>The final product that rolled out was a collaborative effort with the mobile team. 
-          Stage & Pay refers to the customer setting up their transaction on the western Union App and then completing the cash transaction
+          Stage & Pay refers to the customer setting up their transaction on the Western Union App and then completing the cash transaction
           at a retail location. Our digital signage was key in providing informational and promotional marketing to in-store customers regarding the
           new service. The Salesforce.com delivery system allowed us to efficiently release content in-line with the mobile service release dates.</p>
             <div className='prototype-img stage-image'></div>

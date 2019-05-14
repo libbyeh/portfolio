@@ -1,6 +1,8 @@
 @import 'variables';
 
 
+
+
 .chime-image {
   background-image: url('../images/chimeall.png');
   background-size: cover;
@@ -74,7 +76,6 @@
   display: grid;
   grid-template-areas: "role-section team-section tech-section"
                        "role-section team-section tech-section";
-  grid-template-rows: 30% 30% 30%;
   justify-content: space-around;
 }
 
@@ -100,9 +101,9 @@
   font-size: 1.2em;
 }
 
-
 .problem-section {
   text-align: center;
+  display: block;
   width: 70%;
   margin-left: 220px;
   margin-top: 70px;
@@ -180,7 +181,6 @@
 }
 
 .findings {
-  font-family: 'Roboto Condensed', sans-serif;
   font-weight: normal;
   line-height: 1.5;
   font-size: .9em;
@@ -192,13 +192,15 @@
 .research-key-findings {
   color: #2a5c62;
   margin-left: 225px;
+  margin-top: 50px;
   font-size: 1em;
   font-family: 'Source Code Pro', monospace;
 }
 
 .competitor-key-findings {
   color: #2a5c62;
-  margin-left: 145px;
+  margin-left: 150px;
+  margin-top: 50px;
   font-size: 1em;
   font-family: 'Source Code Pro', monospace;
   width: 70%;

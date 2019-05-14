@@ -76,8 +76,6 @@ class App extends Component {
           <p className='intro-about'>I enjoy building user-centric digital experiences. 
              You can find me at the intersection of UX research & design, UI development and marketing.  
           </p>
-          <button className='resume-btn' onClick={this.renderResume}>View Resume</button>
-          <i class="fas fa-arrow-right"></i>
         </section>
         <p className='arrow'>&#x25BC;</p>
         <section className='project-grid'>
@@ -97,7 +95,7 @@ class App extends Component {
             <div className='project-details'>
               <h6 className='project-headline'>CX CASE STUDY</h6>
               <h4 className='project-title-box'>WESTERN UNION BRAND EXPERIENCE</h4>
-              <h5 className='project-info'>Translation of consumer research and insights into a complete retail brand experience inclusive of digitalsignage, merchandising, and marketing content.</h5> 
+              <h5 className='project-info'>Translation of consumer research and insights into a complete retail brand experience inclusive of digital signage and marketing content.</h5> 
                 <button className='start' onClick={this.renderDigi}>View Case Study</button>
                 <i class="fas fa-arrow-right"></i>
             </div>
