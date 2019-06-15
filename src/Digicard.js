@@ -50,7 +50,7 @@ class Digicard extends Component {
           <div className='indicators'>
           <h2 className='indicators key-indicators'>Key Performance Indicators:</h2>
               <p>1. Drive incremental revenue and same-store sales.</p>
-              <p>2. Imporve Net Promoter Scores.</p>
+              <p>2. Improve Net Promoter Scores.</p>
               <p>3. Increase the cross-sell & up-sell of Western Union products & services.</p>
           </div>    
         </div>
@@ -88,7 +88,7 @@ class Digicard extends Component {
           <p className='details sfdc-details'>The Salesforce.com platform allowed us to assign projects to internal users who then assign
           customized marketing content kits to specific retail locations. The automated delivery updated assigned kiosks in real-time and can be customized
           down to a single retail location.</p>
-          <div className='comp-image'></div>
+          <div className='sfdc-image'></div>
         </div>
         <div className='persona-section'>
           <h6 className='pre-headline'>ADDITIONAL RESEARCH</h6>

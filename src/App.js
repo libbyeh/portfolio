@@ -5,7 +5,8 @@ import Digicard from './Digicard.js';
 import Walgreenscard from './Walgreenscard.js';
 import Snapshotcard from './Snapshotcard.js';
 import Resume from './Resume.js';
-
+import About from './About.js';
+// import { browserHistory } from 'react-router'
 
 class App extends Component {
   constructor() {
@@ -15,7 +16,8 @@ class App extends Component {
       digiCard: '',
       walgreensCard: '',
       snapshotCard: '',
-      resume: ''
+      resume: '',
+      aboutCard: ''
     }
   }
 
@@ -54,15 +56,24 @@ class App extends Component {
     })
   }
 
+  renderAbout = (e) => {
+    let name = e.target.innerText;
+    this.setState({
+      aboutCard: name
+    })
+  }
+
   closeProject = () => {
     this.setState({
       chimeCard: '',
       digiCard: '',
       walgreensCard: '',
       snapshotCard: '',
-      resume: ''
+      resume: '',
+      aboutCard: ''
     })
   }
+
 
 
   render() {
@@ -70,12 +81,13 @@ class App extends Component {
       <div className="App">
         <header className='header'></header>
         <section className='intro'>
-          <div className='intro-image'></div>
+        <div className='intro-image'></div>
           <h1 className='intro-header'>LIBBY YEH</h1>
           <h3 className='intro-details'>UX/UI DESIGNER & DEVELOPER  |  CONTENT STRATEGIST</h3>
           <p className='intro-about'>I enjoy building user-centric digital experiences. 
              You can find me at the intersection of UX research & design, UI development and marketing.  
           </p>
+          
         </section>
         <p className='arrow'>&#x25BC;</p>
         <section className='project-grid'>
@@ -132,6 +144,7 @@ class App extends Component {
         <Walgreenscard name={this.state.walgreensCard} closeProject={this.closeProject} />
         <Snapshotcard name={this.state.snapshotCard} closeProject={this.closeProject} />
         <Resume name={this.state.resume} closeProject={this.closeProject} />
+        <About name={this.state.aboutCard} closeProject={this.closeProject} />
       </div>
     );
   }
